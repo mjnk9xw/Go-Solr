@@ -216,3 +216,4 @@ doc := map[string]interface {}{
 You can define any type of document to send off to Solr in an update. Support will be added later to allow raw JSON strings to be used in Updates.
 
 `solr.Update()` returns an `UpdateResponse` and an `error`. `UpdateResponse` has a `Success` (bool) property.
+# Go-Solr
